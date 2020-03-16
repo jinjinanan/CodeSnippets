@@ -3,10 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>declareStrongVariable</string>
+	<string>clbDeclareStrongVariable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
+		<string>ClassInterfaceVariables</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property(nonatomic, strong) &lt;#ClassName#&gt; *&lt;#variableName#&gt;</string>

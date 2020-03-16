@@ -3,25 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>clbCreateConstraints</string>
+	<string>clbFormatConstraints</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [&lt;#controlName#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(&lt;#name#&gt;).with.offset(&lt;#number#&gt;);
-        make.right.equalTo(&lt;#name#&gt;).with.offset(&lt;#number#&gt;);
-        make.left.equalTo(&lt;#name#&gt;).with.offset(&lt;#number#&gt;);
-        make.height.mas_equalTo(&lt;#number#&gt;);
-    }];
-</string>
+	<string>[self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"" options:1 metrics:nil views:NSDictionaryOfVariableBindings(&lt;#...#&gt;)]];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>36D3F49E-FD1F-4B82-8FBE-A325FAF6226A</string>
+	<string>15024121-BB88-4B39-941F-6A57A163B493</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CLPCreateConstraints</string>
+	<string>CLBCreateLayoutConstrainsCodeSnippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

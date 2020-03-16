@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CreateBtn</string>
+	<string>clbCreateBtn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -12,8 +12,12 @@
 	<string>    UIButton *&lt;#buttonName#&gt; = ({
         UIButton *btn = [[UIButton alloc] init];
         [btn addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];
+        btn.translatesAutoresizingMaskIntoConstraints = NO;
         btn;
-    });</string>
+    });
+[&lt;#(nonnull UIView *)#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];
+
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0B00936C-13D5-4A31-838E-9F4AE83E4AF0</string>
 	<key>IDECodeSnippetLanguage</key>

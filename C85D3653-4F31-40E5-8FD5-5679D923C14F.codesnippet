@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>createTextField</string>
+	<string>clbCreateTextField</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -12,7 +12,8 @@
 	<string>    UITextField *&lt;#textFieldName#&gt; = ({
         UITextField *textField = [[UITextField alloc] init];
         textField;
-    })</string>
+    })
+    [&lt;#(nonnull UIView *)#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C85D3653-4F31-40E5-8FD5-5679D923C14F</string>
 	<key>IDECodeSnippetLanguage</key>

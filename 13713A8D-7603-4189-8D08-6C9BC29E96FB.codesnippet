@@ -3,25 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>clbCreateConstraints</string>
+	<string>clbCreateView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [&lt;#controlName#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(&lt;#name#&gt;).with.offset(&lt;#number#&gt;);
-        make.right.equalTo(&lt;#name#&gt;).with.offset(&lt;#number#&gt;);
-        make.left.equalTo(&lt;#name#&gt;).with.offset(&lt;#number#&gt;);
-        make.height.mas_equalTo(&lt;#number#&gt;);
-    }];
-</string>
+	<string>    &lt;#viewName#&gt; = ({
+        UIView *v = [[UIView alloc] init];
+        v.translatesAutoresizingMaskIntoConstraints = NO;
+        v;
+    });
+    [&lt;#viewName#&gt; addSubview:&lt;#viewName#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>36D3F49E-FD1F-4B82-8FBE-A325FAF6226A</string>
+	<string>13713A8D-7603-4189-8D08-6C9BC29E96FB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CLPCreateConstraints</string>
+	<string>CLPCreateView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

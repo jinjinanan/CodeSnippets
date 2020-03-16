@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>createLable</string>
+	<string>clbCreateLable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -11,8 +11,10 @@
 	<key>IDECodeSnippetContents</key>
 	<string>    UILabel *&lt;#lblName#&gt; = ({
         UILabel *lbl = [[UILabel alloc]init];
+        lbl.translatesAutoresizingMaskIntoConstraints = NO;
         lbl;
-    });</string>
+    });
+    [&lt;#(nonnull UIView *)#&gt; addSubview:&lt;#(nonnull UIView *)#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CF278160-39C2-4202-A5A5-A29D4076C062</string>
 	<key>IDECodeSnippetLanguage</key>

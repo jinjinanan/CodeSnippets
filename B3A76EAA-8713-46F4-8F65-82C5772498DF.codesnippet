@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CLPattributeString</string>
+	<string>clbAttributeString</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[[NSAttributedString alloc] initWithString:&lt;#string#&gt; attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:&lt;#size#&gt;], NSForegroundColorAttributeName : mHexColor(&lt;#color#&gt;)}]</string>

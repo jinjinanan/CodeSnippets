@@ -3,25 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>clbCreateConstraints</string>
+	<string>CLPOverrideHeaderFooterReuseInit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [&lt;#controlName#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(&lt;#name#&gt;).with.offset(&lt;#number#&gt;);
-        make.right.equalTo(&lt;#name#&gt;).with.offset(&lt;#number#&gt;);
-        make.left.equalTo(&lt;#name#&gt;).with.offset(&lt;#number#&gt;);
-        make.height.mas_equalTo(&lt;#number#&gt;);
-    }];
-</string>
+	<string>-(instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier
+{
+    self = [super initWithReuseIdentifier:reuseIdentifier];
+    if (self) {
+        [self configurateUI];
+    }
+    return self;
+}
+
+-(void)configurateUI
+{
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>36D3F49E-FD1F-4B82-8FBE-A325FAF6226A</string>
+	<string>E7DC6AC0-7115-4C74-90A0-8AEEB875EDBC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CLPCreateConstraints</string>
+	<string>CLPOVERRIDEHEADERFOOTERINIT</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
