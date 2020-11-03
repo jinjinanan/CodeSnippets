@@ -3,21 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>clbFormatConstraints</string>
+	<string>clbCreateAlertVC</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>All</string>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"" options:1 metrics:nil views:NSDictionaryOfVariableBindings(&lt;#...#&gt;)]];</string>
+	<string>UIAlertController *alert = [UIAlertController alertControllerWithTitle:&lt;#标题#&gt; message:&lt;#详情#&gt; preferredStyle:UIAlertControllerStyleAlert];
+    [self presentViewController:alert animated:YES completion:nil];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [alert dismissViewControllerAnimated:YES completion:nil];
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>15024121-BB88-4B39-941F-6A57A163B493</string>
+	<string>24F1EC5A-3DA9-449E-835B-6F4E0DC2CC75</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CLBCreateLayoutConstrainsCodeSnippet</string>
+	<string>CLPCreateAlertVC</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

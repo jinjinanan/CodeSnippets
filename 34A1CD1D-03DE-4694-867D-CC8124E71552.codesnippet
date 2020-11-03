@@ -6,8 +6,7 @@
 	<string>clbDeclareStrongVariable</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
-		<string>ClassInterfaceVariables</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property(nonatomic, strong) &lt;#ClassName#&gt; *&lt;#variableName#&gt;</string>
@@ -15,8 +14,10 @@
 	<string>34A1CD1D-03DE-4694-867D-CC8124E71552</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CLPDeclareVariable</string>
+	<string>CLPDeclareStrongVariable</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>clbFormatConstraints</string>
+	<string>clbCreateEnum</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"" options:1 metrics:nil views:NSDictionaryOfVariableBindings(&lt;#...#&gt;)]];</string>
+	<string>typedef NS_ENUM(NSInteger,&lt;#NS_ENUM_NAM#&gt;)
+{
+    &lt;#NS_ENUM_TYPE_NAME#&gt; = 1 &lt;&lt; 1,
+    &lt;#NS_ENUM_TYPE_NAME#&gt; = 1 &lt;&lt; 2,
+    &lt;#NS_ENUM_TYPE_NAME#&gt; = 1 &lt;&lt; 3,
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>15024121-BB88-4B39-941F-6A57A163B493</string>
+	<string>3E76EF1E-4AB3-40BE-94A0-21BC6DB5138B</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CLBCreateLayoutConstrainsCodeSnippet</string>
+	<string>CLBCreateEnum</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
